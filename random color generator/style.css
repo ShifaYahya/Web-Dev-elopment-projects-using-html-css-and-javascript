@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: cursive;
+}
+h1{
+    text-align: center;
+    color: rgb(1, 1, 36);
+}
+.colors-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    
+}
+.color{
+   
+    width: 350px;
+    height: 170px;
+    margin: 7px;
+    
+    background-color: rgb(156, 229, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0, .5);
+    border-radius: 10px;
+    border: solid rgba(255,255,255, .3) 1px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.3);
+}
